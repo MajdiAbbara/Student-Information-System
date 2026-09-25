@@ -135,7 +135,7 @@ public class Main {
         System.out.println(progCourse.toString());
         System.out.println("-------------------------------------------\n");
 
-        // 9. Student (Your Profile)
+        // 9. Student 
         Student mecdi = new Student(
             "230504544",
             "99123456789",
@@ -155,7 +155,7 @@ public class Main {
         System.out.println(mecdi.toString());
         System.out.println("-------------------------------------------\n");
 
-        // Using ArrayList as required in Assignment
+        //  ArrayList
         List<Student> studentList = new ArrayList<>();
         studentList.add(mecdi);
 
@@ -164,8 +164,5 @@ public class Main {
             System.out.println(s.toString());
         }
 
-        System.out.println("\n===========================================");
-        System.out.println("     Execution Completed Successfully!      ");
-        System.out.println("===========================================");
     }
 }
